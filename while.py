@@ -39,7 +39,7 @@ while True:
 print("Fui breakado!")
 
 
-# Outra forma de fazer #2
+# Outra forma de fazer usando PASS e BREAK
 c = 0
 while True:
     if c <= 10:
@@ -49,4 +49,16 @@ while True:
     print(c)
     time.sleep(1)
     c = c + 1
+print("Fui breakado!")
+
+
+# Outra forma de fazer usando CONTINUE
+c = 0
+while c < 10:
+    c = c + 1
+    if c == 4:
+        continue   # interrompe apenas a iteração atual (não interrompe o fluxo do while inteiro)
+    print(c)
+    time.sleep(1)
+    
 print("Fui breakado!")
