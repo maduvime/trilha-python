@@ -14,3 +14,5 @@ def comando(x, y):
     return soma
 
 print(comando(x=10, y=20))  # aqui, com RETURN no escopo, se não usar PRINT, nada acontece
+
+print(comando(10, 20))  # também pode ser escrito assim
