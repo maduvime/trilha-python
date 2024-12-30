@@ -13,4 +13,4 @@ print(numeros_pares_ate_20)
 pares_ate_40 = [i*2 for i in range(21)] # coloca "i*2" para cada i numa faixa de 21 valores
 print(pares_ate_40)     # não precisa colocar ".append()" pq a função já está dentro da lista -> '[aqui]'
 
-# Dá pra colocar uma tupla ali dentro tbm... O CÉU É O LIMITE !
+# Dá pra colocar uma tupla ali dentro tbm... O CÉU É O LIMITE!
