@@ -13,3 +13,4 @@ while tentativas < 10:
     else:
         print("O número é MENOR que esse.")
     tentivas = tentativas + 1
+
